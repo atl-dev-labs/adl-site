@@ -50,7 +50,7 @@
     --breakpoint-xl: 1200px;
     find --font-family-sans-serif: "Roboto Mono",
         -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -195,14 +195,14 @@ sup {
 }
 
 a {
-    color: #ffc107;
+    color: #2a91ff;
     text-decoration: none;
     background-color: transparent;
-    -webkit-text-decoration-skip: objects
+    -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-    color: #ba8b00;
+    color: #2a91ff;
     text-decoration: underline
 }
 
@@ -6900,7 +6900,7 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #ffc107 !important
+    background-color: #2a91ff !important;
 }
 
 a.bg-primary:focus,
@@ -10251,7 +10251,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #ffc107 !important
+    color: #2a91ff !important;
 }
 
 a.text-primary:focus,
@@ -10648,7 +10648,7 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link.active {
-    color: #ffc107
+    color: #2a91ff;
 }
 
 header .navbar .dropdown-menu {
@@ -11161,7 +11161,7 @@ header .search-form .form-control:-moz-placeholder {
     position: relative;
     width: 0px;
     font-size: 30px;
-    color: #ffc107
+    color: #2a91ff;
 }
 
 .load-more {
@@ -11364,7 +11364,7 @@ header .search-form .form-control:-moz-placeholder {
 
 .site-footer {
     padding: 7em 0;
-    background: #ffc809
+    background: #1ab4e8;
 }
 
 .site-footer p {
@@ -11657,7 +11657,7 @@ header .search-form .form-control:-moz-placeholder {
 }
 
 .block-11 .owl-dots .owl-dot.active > span {
-    background: #ffc107
+    background: #2a91ff;
 }
 
 .block-33 {
@@ -12139,7 +12139,7 @@ figure figcaption {
 
 .service .icon {
     font-size: 3rem;
-    color: #ffc107
+    color: #2a91ff;
 }
 
 .service h3 {
