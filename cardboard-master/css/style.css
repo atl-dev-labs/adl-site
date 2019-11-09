@@ -195,14 +195,14 @@ sup {
 }
 
 a {
-    color: #2a91ff;
+    color: #045288;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-    color: #2a91ff;
+    color: #045288;
     text-decoration: underline
 }
 
@@ -6900,7 +6900,7 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #2a91ff !important;
+    background-color: #045288 !important;
 }
 
 a.bg-primary:focus,
@@ -10251,7 +10251,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #2a91ff !important;
+    color: #045288 !important;
 }
 
 a.text-primary:focus,
@@ -10648,7 +10648,7 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link.active {
-    color: #2a91ff;
+    background-color: rgba(0,0,0,0.5);
 }
 
 header .navbar .dropdown-menu {
@@ -11161,7 +11161,7 @@ header .search-form .form-control:-moz-placeholder {
     position: relative;
     width: 0px;
     font-size: 30px;
-    color: #2a91ff;
+    color: #045288;
 }
 
 .load-more {
@@ -11364,7 +11364,7 @@ header .search-form .form-control:-moz-placeholder {
 
 .site-footer {
     padding: 7em 0;
-    background: #1ab4e8;
+    background: #73acd3;
 }
 
 .site-footer p {
@@ -11657,7 +11657,7 @@ header .search-form .form-control:-moz-placeholder {
 }
 
 .block-11 .owl-dots .owl-dot.active > span {
-    background: #2a91ff;
+    background: #045288;
 }
 
 .block-33 {
@@ -12139,7 +12139,7 @@ figure figcaption {
 
 .service .icon {
     font-size: 3rem;
-    color: #2a91ff;
+    color: #045288;
 }
 
 .service h3 {
