@@ -1,8 +1,22 @@
-You typed in: <?php print $_POST['email'];?>
+Thanks for your message!
+
 <?php
-		$to = "betterjustin@gmail.com";
-		$subject = "Email from my website";
-		$body = "the user typed in ...";
+		
+		$userName		= $_POST['name'];
+		$userPhone		= $_POST['phone'];
+		$userEmail		= $_POST['email'];
+		$userMessage	= $_POST['message'];
+
+
+		$to 			= "atldevlabs@gmail.com";
+		$subject 		= "Email from atldevlabs.com";
+		$body 			= "Information submitted";
+		
+		$body .= "\r\n Name: " . $userName;
+		$body .= "\r\n Phone: " . $userPhone;
+		$body .= "\r\n Email: " . $userEmail;
+		$body .= "\r\n Message: " . $userMessage;
+
 		mail($to, $subject, $body);
 
 ?>
