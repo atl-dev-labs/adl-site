@@ -1,5 +1,3 @@
-Thanks for your message!
-
 <?php
 		
 		$userName		= $_POST['name'];
@@ -18,5 +16,7 @@ Thanks for your message!
 		$body .= "\r\n Message: " . $userMessage;
 
 		mail($to, $subject, $body);
+		echo '<script>window.location = "thanks.html" </script>';
+		exit();
 
 ?>
