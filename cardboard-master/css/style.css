@@ -1,20 +1,3 @@
-/*
-* ////////////////////////////////////////////////////////////////
-
-* Author: Free-Template.co
-* Author URL: http://free-template.co.
-* License: https://creativecommons.org/licenses/by/3.0/
-* License URL: https://creativecommons.org/licenses/by/3.0/
-* Site License URL: https://free-template.co/template-license/
-  
-* Website:  https://free-template.co
-* Facebook: https://www.facebook.com/FreeDashTemplate.co
-* Twitter:  https://twitter.com/Free_Templateco
-* RSS Feed: https://feeds.feedburner.com/Free-templateco
-
-* ////////////////////////////////////////////////////////////////
-*/
-
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -1487,14 +1470,14 @@ pre code {
 
     .col-lg-3 {
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%
+        -ms-flex: 0 0 3.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%
     }
 
     .col-lg-4 {
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33333%;
+        -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%;
     }
@@ -11363,7 +11346,7 @@ header .search-form .form-control:-moz-placeholder {
 }
 
 .site-footer {
-    padding: 7em 0;
+    padding: 0 0 2em 0;
     background: #73acd3;
 }
 
