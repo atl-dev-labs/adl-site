@@ -1,4 +1,8 @@
-<?php
+
+
+<body>
+	
+	<?php
 		
 		$userName		= $_POST['name'];
 		$userPhone		= $_POST['phone'];
@@ -16,7 +20,8 @@
 		$body .= "\r\n Message: " . $userMessage;
 
 		mail($to, $subject, $body);
-		echo '<script>window.location = "thanks.html" </script>';
+		echo '<script>window.location = "http://atldevlabs.com" </script>';
 		exit();
 
 ?>
+</body>
